@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(doAnotherThing(otherThing))
 }
 
-func doAnotherThing(float float32) string {
+func DoAnotherThing(float float32) string {
 	fmt.Println("Hillary is so friggin cool")
 	return fmt.Sprintf("%f - is the %x", float, reflect.TypeOf(float))
 }
